@@ -17,6 +17,7 @@ body {
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 18px;
   padding: 1rem;
+  box-shadow: 0 3px 11px rgba(0, 0, 0, 0.1);
 }
 .card .qr img {
   width: 100%;
@@ -40,8 +41,15 @@ body {
 .attribution {
   margin-top: 5rem;
 }
-.attribution .fm-link a {
+.attribution p {
   color: hsl(218deg, 44%, 22%);
+}
+.attribution p a {
+  color: hsl(220deg, 15%, 55%);
+}
+.attribution p a:hover {
+  color: #2C7DFA;
+  transition: 0.3s ease;
 }
 
 @media screen and (max-width: 1000px) {

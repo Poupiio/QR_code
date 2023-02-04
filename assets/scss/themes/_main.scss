@@ -4,6 +4,7 @@
     background-color: $white;
     border-radius: $radius;
     padding: 1rem;
+    box-shadow: 0 3px 11px rgba(0,0,0,0.1);
 
     .qr img {
         width: 100%;
@@ -32,7 +33,16 @@
 .attribution {
     margin-top: 5rem;
 
-    .fm-link a {
+    p {
         color: $darkBlue;
+
+        a {
+            color: $grayBlue;
+
+            &:hover {
+                color: $qr;
+                transition: 0.3s ease;
+            }
+        }
     }
 }
