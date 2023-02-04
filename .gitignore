@@ -17,7 +17,6 @@
 
 
 node_modules
-README-template.md
-README.md
+*.md
 
 
