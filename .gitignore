@@ -16,5 +16,8 @@
 .prettierignore
 
 
-/node_modules
+node_modules
+README-template.md
+README.md
+
 
