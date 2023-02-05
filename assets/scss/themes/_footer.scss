@@ -1,0 +1,16 @@
+.attribution {
+    margin-top: 3rem;
+
+    p {
+        color: $darkBlue;
+
+        a {
+            color: $grayBlue;
+
+            &:hover {
+                color: $qr;
+                transition: 0.3s ease;
+            }
+        }
+    }
+}
